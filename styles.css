@@ -345,3 +345,28 @@ h3 {
     flex-direction: column;
   }
 }
+.legal-page .section {
+  max-width: 820px;
+}
+
+.legal-page h1 {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+}
+
+.legal-page h2 {
+  margin-top: 48px;
+  margin-bottom: 14px;
+  font-size: 1.75rem;
+  letter-spacing: -0.03em;
+}
+
+.legal-page p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.legal-page a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
