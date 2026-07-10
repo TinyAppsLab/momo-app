@@ -1,11 +1,11 @@
-# Momo website v4
+# Momo website v5
 
-This version uses only the black Momo in the hero.
+Changes in this version:
+- white page background
+- smaller Momos
+- no fixed side decorations
+- safer mobile layout
+- horizontal scrolling disabled
+- responsive image sizes for phones
 
-All other Momos appear separately in later sections:
-- cards
-- story section
-- quote section
-- footer
-
-Upload all files and folders to the repository root.
+Upload all files and folders to the root of the GitHub repository.
