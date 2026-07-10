@@ -1,17 +1,11 @@
-# Momo website v3
+# Momo website v4
 
-This package is ready for GitHub Pages.
+This version uses only the black Momo in the hero.
 
-Upload all files and folders to the repository root:
-- `index.html`
-- `styles.css`
-- `privacy.html`
-- `support.html`
-- `terms.html`
-- `images/`
-- `pl/`
+All other Momos appear separately in later sections:
+- cards
+- story section
+- quote section
+- footer
 
-Then enable GitHub Pages from:
-Settings → Pages → Deploy from a branch → main → / (root)
-
-The uploaded JPEG illustrations were converted to transparent PNG files automatically.
+Upload all files and folders to the repository root.
