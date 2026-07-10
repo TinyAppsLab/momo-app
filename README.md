@@ -1,13 +1,9 @@
-# Momo website v6
+# Momo website v7
 
-This version follows the new white/pastel layout.
+This release makes every Momo substantially smaller and uses fixed maximum
+dimensions on desktop, tablet, and phone.
 
-Each Momo appears only once on the homepage:
-- black: hero
-- purple: privacy
-- blue, green, yellow, orange: feature cards
-- brown: quote
-- light pink and red: final call to action
-- dark pink: footer
+The stylesheet link includes `?v=7` so browsers do not keep showing the old,
+cached image sizes after uploading to GitHub Pages.
 
-Upload every file and folder to the root of your GitHub repository.
+Upload the complete contents of this package to the repository root.

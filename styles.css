@@ -168,17 +168,20 @@ h3 {
 }
 
 .hero-art {
-  min-height: 470px;
+  min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .hero-black {
-  width: min(340px, 72vw);
-  max-height: 390px;
-  object-fit: contain;
-  filter: drop-shadow(0 22px 30px rgba(0,0,0,.12));
+  width: 220px !important;
+  max-width: 46vw !important;
+  height: 250px !important;
+  max-height: 250px !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 16px 22px rgba(0,0,0,.10));
 }
 
 .section {
@@ -186,15 +189,15 @@ h3 {
 }
 
 .privacy-band {
-  min-height: 300px;
-  padding: 38px 48px;
-  border-radius: 34px;
+  min-height: 230px;
+  padding: 30px 40px;
+  border-radius: 30px;
   background:
-    linear-gradient(90deg, rgba(245,240,255,.92), rgba(239,232,255,.58));
+    linear-gradient(90deg, rgba(245,240,255,.88), rgba(239,232,255,.48));
   display: grid;
-  grid-template-columns: 1fr 0.72fr;
+  grid-template-columns: 1fr 0.55fr;
   align-items: center;
-  gap: 36px;
+  gap: 28px;
   overflow: hidden;
 }
 
@@ -229,9 +232,11 @@ h3 {
 }
 
 .privacy-momo {
-  width: min(235px, 80%);
-  max-height: 240px;
-  object-fit: contain;
+  width: 150px !important;
+  max-width: 34vw !important;
+  height: 170px !important;
+  max-height: 170px !important;
+  object-fit: contain !important;
   justify-self: center;
 }
 
@@ -248,8 +253,8 @@ h3 {
 }
 
 .feature {
-  min-height: 310px;
-  padding: 24px 22px 0;
+  min-height: 245px;
+  padding: 22px 20px 0;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   text-align: center;
@@ -268,29 +273,33 @@ h3 {
 }
 
 .feature-momo {
-  width: 112px;
-  max-height: 125px;
-  margin: 22px auto 0;
-  object-fit: contain;
+  width: 70px !important;
+  max-width: 70px !important;
+  height: 82px !important;
+  max-height: 82px !important;
+  margin: 18px auto 0;
+  object-fit: contain !important;
 }
 
 .quote-band {
-  min-height: 300px;
-  padding: 42px 50px;
-  border-radius: 34px;
+  min-height: 230px;
+  padding: 32px 42px;
+  border-radius: 30px;
   background:
-    linear-gradient(90deg, rgba(255,239,226,.92), rgba(255,246,238,.78));
+    linear-gradient(90deg, rgba(255,239,226,.86), rgba(255,246,238,.62));
   display: grid;
-  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-columns: 0.5fr 1.5fr;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   overflow: hidden;
 }
 
 .quote-momo {
-  width: min(235px, 82%);
-  max-height: 245px;
-  object-fit: contain;
+  width: 145px !important;
+  max-width: 32vw !important;
+  height: 165px !important;
+  max-height: 165px !important;
+  object-fit: contain !important;
   justify-self: center;
 }
 
@@ -324,9 +333,11 @@ h3 {
 
 .edge-momo {
   position: absolute;
-  width: 104px;
-  max-height: 115px;
-  object-fit: contain;
+  width: 54px !important;
+  max-width: 54px !important;
+  height: 62px !important;
+  max-height: 62px !important;
+  object-fit: contain !important;
   pointer-events: none;
 }
 
@@ -365,9 +376,11 @@ h3 {
   position: absolute;
   right: 18px;
   bottom: 0;
-  width: 92px;
-  max-height: 96px;
-  object-fit: contain;
+  width: 52px !important;
+  max-width: 52px !important;
+  height: 58px !important;
+  max-height: 58px !important;
+  object-fit: contain !important;
   pointer-events: none;
 }
 
@@ -430,8 +443,10 @@ h3 {
   }
 
   .hero-black {
-    width: min(230px, 62vw);
-    max-height: 260px;
+    width: 160px !important;
+    max-width: 50vw !important;
+    height: 180px !important;
+    max-height: 180px !important;
   }
 
   .privacy-band,
@@ -449,13 +464,23 @@ h3 {
 
   .privacy-momo,
   .quote-momo {
-    width: min(170px, 55vw);
-    max-height: 180px;
+    width: 115px !important;
+    max-width: 38vw !important;
+    height: 130px !important;
+    max-height: 130px !important;
   }
 
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .feature-momo {
+    width: 58px !important;
+    max-width: 58px !important;
+    height: 68px !important;
+    max-height: 68px !important;
+  }
+
 
   .feature {
     min-height: 280px;
@@ -463,8 +488,10 @@ h3 {
 
   .edge-momo,
   .footer-darkpink {
-    width: 74px;
-    max-height: 82px;
+    width: 42px !important;
+    max-width: 42px !important;
+    height: 48px !important;
+    max-height: 48px !important;
   }
 
   .site-footer {
@@ -503,6 +530,29 @@ h3 {
   .features {
     grid-template-columns: 1fr;
   }
+
+  .hero-black {
+    width: 135px !important;
+    max-width: 46vw !important;
+    height: 150px !important;
+    max-height: 150px !important;
+  }
+
+  .privacy-momo,
+  .quote-momo {
+    width: 95px !important;
+    max-width: 36vw !important;
+    height: 108px !important;
+    max-height: 108px !important;
+  }
+
+  .feature-momo {
+    width: 52px !important;
+    max-width: 52px !important;
+    height: 60px !important;
+    max-height: 60px !important;
+  }
+
 
   .feature {
     min-height: 250px;
