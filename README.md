@@ -1,13 +1,10 @@
-# Momo website
+# Momo website v2
 
-Gotowa dwujęzyczna strona statyczna pod GitHub Pages.
+Upload every file and folder to the root of your GitHub repository.
 
-## Publikacja
-1. Utwórz nowe publiczne repozytorium na GitHubie.
-2. Wgraj wszystkie pliki oraz folder `pl` do głównego katalogu repozytorium.
-3. Wejdź w **Settings → Pages**.
-4. Wybierz **Deploy from a branch**.
-5. Ustaw gałąź `main` i folder `/ (root)`.
-6. Kliknij **Save**.
+Important:
+- Keep the `images` folder.
+- Keep the `pl` folder.
+- `index.html` and `styles.css` must remain in the repository root.
+- Enable GitHub Pages from `main` and `/ (root)`.
 
-Po publikacji podmień przycisk „Coming to the App Store” / „Wkrótce w App Store” na prawdziwy link do aplikacji.
