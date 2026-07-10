@@ -185,7 +185,7 @@ h3 {
 .momos-image {
   position: relative;
   width: 100%;
-  max-width: 440px;
+  max-width: 340px;
   height: auto;
   object-fit: contain;
   mix-blend-mode: multiply;
