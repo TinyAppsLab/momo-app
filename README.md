@@ -1,11 +1,13 @@
-# Momo website v5
+# Momo website v6
 
-Changes in this version:
-- white page background
-- smaller Momos
-- no fixed side decorations
-- safer mobile layout
-- horizontal scrolling disabled
-- responsive image sizes for phones
+This version follows the new white/pastel layout.
 
-Upload all files and folders to the root of the GitHub repository.
+Each Momo appears only once on the homepage:
+- black: hero
+- purple: privacy
+- blue, green, yellow, orange: feature cards
+- brown: quote
+- light pink and red: final call to action
+- dark pink: footer
+
+Upload every file and folder to the root of your GitHub repository.
