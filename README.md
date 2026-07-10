@@ -1,10 +1,17 @@
-# Momo website v2
+# Momo website v3
 
-Upload every file and folder to the root of your GitHub repository.
+This package is ready for GitHub Pages.
 
-Important:
-- Keep the `images` folder.
-- Keep the `pl` folder.
-- `index.html` and `styles.css` must remain in the repository root.
-- Enable GitHub Pages from `main` and `/ (root)`.
+Upload all files and folders to the repository root:
+- `index.html`
+- `styles.css`
+- `privacy.html`
+- `support.html`
+- `terms.html`
+- `images/`
+- `pl/`
 
+Then enable GitHub Pages from:
+Settings → Pages → Deploy from a branch → main → / (root)
+
+The uploaded JPEG illustrations were converted to transparent PNG files automatically.
