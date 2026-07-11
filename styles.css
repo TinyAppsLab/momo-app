@@ -111,12 +111,13 @@ img {
   text-transform: uppercase;
 }
 .heading-momo {
-  width: 54px;
-  height: auto;
-  margin: 0 auto 18px;
   display: block;
+  width: 38px !important;
+  max-width: 38px !important;
+  height: auto !important;
+  margin: 0 auto 14px;
   transform: rotate(-8deg);
-  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.08));
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,.08));
 }
 
 h1,
