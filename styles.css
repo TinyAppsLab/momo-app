@@ -423,14 +423,16 @@ h3 {
 
 .footer-darkpink {
   position: absolute;
-  right: 18px;
-  bottom: 0;
-  width: 52px !important;
-  max-width: 52px !important;
-  height: 58px !important;
-  max-height: 58px !important;
+  right: -18px;
+  top: 10px;
+  width: 72px !important;
+  max-width: 72px !important;
+  height: 82px !important;
+  max-height: 82px !important;
   object-fit: contain !important;
   pointer-events: none;
+  transform: rotate(-6deg);
+  opacity: 0.95;
 }
 
 .legal {
