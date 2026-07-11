@@ -410,9 +410,11 @@ h3 {
 }
 
 .edge-right-dark {
-  right: 48px;
-  bottom: 26px;
-  transform: rotate(-10deg);
+    right: 48px;
+    bottom: 24px;
+    width: 46px !important;
+    height: 54px !important;
+    transform: rotate(-10deg);
 }
 
 .site-footer {
