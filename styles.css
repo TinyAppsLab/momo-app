@@ -385,8 +385,22 @@ h3 {
   color: var(--muted);
 }
 
-.final-cta .button {
-  margin-top: 14px;
+.final-cta {
+  position: relative;
+  padding: 70px 50px;
+  margin: 90px 0;
+  text-align: center;
+
+  border-radius: 34px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255,233,239,.90),
+      rgba(255,245,248,.65)
+    );
+
+  overflow: hidden;
 }
 
 .edge-momo {
@@ -536,13 +550,12 @@ h3 {
     min-height: 280px;
   }
 
-  .edge-momo,
-  .footer-darkpink {
-    width: 42px !important;
-    max-width: 42px !important;
-    height: 48px !important;
-    max-height: 48px !important;
-  }
+.cta-momo {
+  width: 95px;
+  height: auto;
+  margin: 0 auto 22px;
+  display: block;
+}
 
   .site-footer {
     padding-bottom: 86px;
