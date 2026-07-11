@@ -767,9 +767,9 @@ h3 {
     padding: 44px 32px;
     margin: 62px 0 36px;
     border-radius: 26px;
-  }
+}
 
-  .cta-momo {
+.cta-momo {
     width: 54px !important;
     max-width: 54px !important;
 
@@ -777,24 +777,27 @@ h3 {
     max-height: 62px !important;
 
     margin-bottom: 14px;
-  }
-
-  .footer-momo {
-    width: 12px !important;
-    height: 14px !important;
 }
 
-  .footer-momo-left,
-  .footer-momo-right {
-    width: 16px !important;
-    max-width: 16px !important;
+.footer-momos {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin: 0 0 8px;
+}
 
-    height: 20px !important;
-    max-height: 20px !important;
-  }
+.footer-momo {
+    width: 8px !important;
+    max-width: 8px !important;
 
-  .footer-links {
+    height: 10px !important;
+    max-height: 10px !important;
+
+    object-fit: contain !important;
+}
+
+.footer-links {
     flex-direction: column;
     gap: 10px;
-  }
+}
 }
