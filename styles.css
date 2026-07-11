@@ -110,6 +110,14 @@ img {
   letter-spacing: 0.13em;
   text-transform: uppercase;
 }
+.heading-momo {
+  width: 54px;
+  height: auto;
+  margin: 0 auto 18px;
+  display: block;
+  transform: rotate(-8deg);
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.08));
+}
 
 h1,
 h2,
