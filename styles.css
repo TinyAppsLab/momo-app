@@ -779,10 +779,10 @@ h3 {
     margin-bottom: 14px;
   }
 
-  .footer-momos {
-    gap: 6px;
-    margin-bottom: 10px;
-  }
+  .footer-momo {
+    width: 12px !important;
+    height: 14px !important;
+}
 
   .footer-momo-left,
   .footer-momo-right {
