@@ -619,6 +619,27 @@ h3 {
     max-height: 76px !important;
     margin-bottom: 16px;
   }
+  .edge-momo {
+  position: absolute;
+  width: 54px !important;
+  max-width: 54px !important;
+  height: 62px !important;
+  max-height: 62px !important;
+  object-fit: contain !important;
+  pointer-events: none;
+}
+
+.edge-left {
+  left: 16px;
+  bottom: 10px;
+  transform: rotate(-6deg);
+}
+
+.edge-right {
+  right: 16px;
+  bottom: 10px;
+  transform: rotate(6deg);
+}
 
   .footer-links {
     flex-direction: column;
